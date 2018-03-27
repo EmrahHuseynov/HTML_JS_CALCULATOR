@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: aqua;
+}
+.calculator{
+    margin-top: 100px;
+    box-shadow: 0 0 0 black;
+    width: 380px;
+    margin: auto;
+    height: 512px;
+/*    background: red;*/
+    border: 2px solid grey;
+        
+}
+#ekran{
+    float: right;
+    display: block;
+    width: 99%;
+    height: 50px;
+    resize:none;
+    font-size: 2.5em;
+    background-color: antiquewhite;
+}
+
+.calculator h1{
+    text-align: center;
+    font-size 20px;
+    background: grey;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.calculator button{
+    float: left;
+    border:1px solid grey;
+    width: 33.3%;
+    font-size: 2em;
+    font-family: monospace;
+    height: 70px;
+    background: brown;
+    outline: none;
+    color: white;
+    transition: all 0.3s linear;
+    
+}
+.calculator button:hover{
+    box-shadow: 0px 0px 5px white;
+}
